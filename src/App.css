@@ -3,7 +3,9 @@
 }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -18,5 +20,32 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contain{
+  width: 80% !important;
+  margin: auto !important;
+  box-sizing: border-box;
+  font-family: lucida sans ;
+}
+.anchor{
+  color:#444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.anchor:hover{
+  color:#ea4c23;
 }
